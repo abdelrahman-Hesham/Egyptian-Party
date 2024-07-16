@@ -1,0 +1,72 @@
+.main-bg{
+    background-image: url(../Images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-bg{
+    background-color: rgba(255, 0, 0, 0.5)
+}
+
+.my-nav{
+
+    left: 10px ;
+
+}
+
+.my-d-none{
+    display: none;
+}
+
+.date{
+    width:200px;
+    height:200px;
+    border: 1px solid white;
+}
+
+.sec-bg{
+    background-image: url(../Images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-icon{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.my-icon:hover{
+
+    background-color: rgba(231, 7, 7, 0.959);
+    color: white;
+    border: 1px solid rgba(231, 7, 7, 0.959) ;
+}
+
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.side{
+    color: white;
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    left: -250px;
+}
+
+.side i {
+    left:200px;
+    top: 20px;
+}
+
+.side *{
+    transition: all 0.3s;
+}
+.side *:hover{
+    color: red;
+}
